@@ -14,34 +14,16 @@ final class QuoteViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .center
         label.numberOfLines = 0
+        label.text = "Mateus Sales"
         return label
     }()
-    
-    private let loader: QuoteLoader
-    
-    init(loader: QuoteLoader) {
-        self.loader = loader
-        super.init(nibName: nil, bundle: nil)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupView()
         setupLabel()
         setupSpinner()
-        
-        spinner.startAnimating()
-        loader.load { [weak self] result in
-            if case let .success(quote) = result {
-                self?.spinner.stopAnimating()
-                self?.quoteLabel.text = quote
-            }
-        }
     }
     
     // MARK: - Setup Views

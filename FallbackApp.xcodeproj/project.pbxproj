@@ -12,14 +12,6 @@
 		CEE25BC72AE9C7F900A9E924 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE25BC62AE9C7F900A9E924 /* QuoteViewController.swift */; };
 		CEE25BCC2AE9C7FA00A9E924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE25BCB2AE9C7FA00A9E924 /* Assets.xcassets */; };
 		CEE25BCF2AE9C7FA00A9E924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE25BCD2AE9C7FA00A9E924 /* LaunchScreen.storyboard */; };
-		CEE25BD82AE9C8C300A9E924 /* QuoteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE25BD72AE9C8C300A9E924 /* QuoteLoader.swift */; };
-		CEE25BDA2AE9C95900A9E924 /* QuoteLoaderFromRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE25BD92AE9C95900A9E924 /* QuoteLoaderFromRemote.swift */; };
-		CEE25BDC2AE9CDAC00A9E924 /* QuoteFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE25BDB2AE9CDAC00A9E924 /* QuoteFactory.swift */; };
-		CEE25BDE2AE9CF6300A9E924 /* QuoteCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE25BDD2AE9CF6300A9E924 /* QuoteCache.swift */; };
-		CEE25BE02AE9CFB700A9E924 /* QuoteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE25BDF2AE9CFB700A9E924 /* QuoteStore.swift */; };
-		CEE25BE22AE9D19800A9E924 /* QuoteLoaderFromMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE25BE12AE9D19800A9E924 /* QuoteLoaderFromMemory.swift */; };
-		CEE25BE42AE9D1E800A9E924 /* QuoteFallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE25BE32AE9D1E800A9E924 /* QuoteFallback.swift */; };
-		CEE25BE62AE9D34900A9E924 /* QuoteDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE25BE52AE9D34900A9E924 /* QuoteDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +22,6 @@
 		CEE25BCB2AE9C7FA00A9E924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE25BCE2AE9C7FA00A9E924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE25BD02AE9C7FA00A9E924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEE25BD72AE9C8C300A9E924 /* QuoteLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteLoader.swift; sourceTree = "<group>"; };
-		CEE25BD92AE9C95900A9E924 /* QuoteLoaderFromRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteLoaderFromRemote.swift; sourceTree = "<group>"; };
-		CEE25BDB2AE9CDAC00A9E924 /* QuoteFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteFactory.swift; sourceTree = "<group>"; };
-		CEE25BDD2AE9CF6300A9E924 /* QuoteCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCache.swift; sourceTree = "<group>"; };
-		CEE25BDF2AE9CFB700A9E924 /* QuoteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteStore.swift; sourceTree = "<group>"; };
-		CEE25BE12AE9D19800A9E924 /* QuoteLoaderFromMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteLoaderFromMemory.swift; sourceTree = "<group>"; };
-		CEE25BE32AE9D1E800A9E924 /* QuoteFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteFallback.swift; sourceTree = "<group>"; };
-		CEE25BE52AE9D34900A9E924 /* QuoteDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,30 +54,14 @@
 		CEE25BC12AE9C7F900A9E924 /* FallbackApp */ = {
 			isa = PBXGroup;
 			children = (
-				CEE25BD62AE9C8B200A9E924 /* Domain */,
 				CEE25BC22AE9C7F900A9E924 /* AppDelegate.swift */,
 				CEE25BC42AE9C7F900A9E924 /* SceneDelegate.swift */,
 				CEE25BC62AE9C7F900A9E924 /* QuoteViewController.swift */,
-				CEE25BD92AE9C95900A9E924 /* QuoteLoaderFromRemote.swift */,
-				CEE25BDF2AE9CFB700A9E924 /* QuoteStore.swift */,
-				CEE25BE12AE9D19800A9E924 /* QuoteLoaderFromMemory.swift */,
-				CEE25BDB2AE9CDAC00A9E924 /* QuoteFactory.swift */,
-				CEE25BE32AE9D1E800A9E924 /* QuoteFallback.swift */,
-				CEE25BE52AE9D34900A9E924 /* QuoteDecorator.swift */,
 				CEE25BCB2AE9C7FA00A9E924 /* Assets.xcassets */,
 				CEE25BCD2AE9C7FA00A9E924 /* LaunchScreen.storyboard */,
 				CEE25BD02AE9C7FA00A9E924 /* Info.plist */,
 			);
 			path = FallbackApp;
-			sourceTree = "<group>";
-		};
-		CEE25BD62AE9C8B200A9E924 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				CEE25BD72AE9C8C300A9E924 /* QuoteLoader.swift */,
-				CEE25BDD2AE9CF6300A9E924 /* QuoteCache.swift */,
-			);
-			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,17 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE25BE42AE9D1E800A9E924 /* QuoteFallback.swift in Sources */,
 				CEE25BC72AE9C7F900A9E924 /* QuoteViewController.swift in Sources */,
-				CEE25BDA2AE9C95900A9E924 /* QuoteLoaderFromRemote.swift in Sources */,
-				CEE25BE62AE9D34900A9E924 /* QuoteDecorator.swift in Sources */,
-				CEE25BD82AE9C8C300A9E924 /* QuoteLoader.swift in Sources */,
 				CEE25BC32AE9C7F900A9E924 /* AppDelegate.swift in Sources */,
-				CEE25BE22AE9D19800A9E924 /* QuoteLoaderFromMemory.swift in Sources */,
 				CEE25BC52AE9C7F900A9E924 /* SceneDelegate.swift in Sources */,
-				CEE25BDE2AE9CF6300A9E924 /* QuoteCache.swift in Sources */,
-				CEE25BE02AE9CFB700A9E924 /* QuoteStore.swift in Sources */,
-				CEE25BDC2AE9CDAC00A9E924 /* QuoteFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
